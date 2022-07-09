@@ -18,7 +18,7 @@ const Footer = () => {
       borderTop: '1px solid #bbb',
       width: '95%',
     }}>
-      <div style={{textAlign: 'center', width: '100%'}}>
+      <div style={{textAlign: 'center', width: '100%', fontSize: '.85rem'}}>
         Exemplo de catalogo feito por &copy; Arthur Lopes
       </div>
     </footer>

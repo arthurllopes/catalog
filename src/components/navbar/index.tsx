@@ -7,11 +7,11 @@ const Navbar = () => {
   const styles = {
     display: 'flex',
     justifyContent: 'start',
-    margin: '0 auto',
     overflow: 'hidden',
     padding: '8px 0px 0px 28px',
     borderBottom: '2px solid #ddd',
     width: '95vw',
+    margin: '8px auto'
   }
   const style = {
     display: 'flex',

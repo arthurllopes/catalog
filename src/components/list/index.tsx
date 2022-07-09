@@ -21,7 +21,7 @@ const List = () => {
     gap: '22px',
     paddingTop: '12px',
     width: '100%',
-    justifyContent: 'start',
+    justifyContent: 'center',
   }
   return (
     <ul style={styles}>
