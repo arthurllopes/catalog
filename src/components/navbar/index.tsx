@@ -8,7 +8,7 @@ const Navbar = () => {
     display: 'flex',
     justifyContent: 'start',
     overflow: 'hidden',
-    padding: '8px 0px 0px 28px',
+    padding: '8px 8px 0px',
     borderBottom: '2px solid #ddd',
     width: '95vw',
     margin: '8px auto',

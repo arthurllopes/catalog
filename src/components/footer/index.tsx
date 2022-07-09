@@ -14,6 +14,7 @@ const Footer = () => {
       display: 'flex',
       alignItems: 'center',
       margin: '0 auto',
+      marginTop: '12px',
       padding: '12px 16px',
       borderTop: '1px solid #bbb',
       width: '95%',
