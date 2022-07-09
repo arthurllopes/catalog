@@ -3,7 +3,7 @@ import React from 'react'
 
 const Item = ({item}: {item: {title: string, image: any, price: number}}) => {
   return (
-    <li style={{
+    <div style={{
       display: 'flex',
       backgroundColor: 'white',
       borderRadius: '8px 8px 20px 8px',
@@ -25,19 +25,19 @@ const Item = ({item}: {item: {title: string, image: any, price: number}}) => {
           <strong>${item.price}</strong><span style={{color: '#aaa'}}>/day</span>
         </div>
         <div style={{
-    backgroundColor: '#4162e1',
-    borderRadius: '20px 0px 20px 0px',
-    padding: '8px 16px',
-    width: '100%',
-    textAlign: 'center',
-    color: 'white',
-    fontWeight: '500',
-  }}>
+          backgroundColor: '#4162e1',
+          borderRadius: '20px 0px 20px 0px',
+          padding: '8px 16px',
+          width: '100%',
+          textAlign: 'center',
+          color: 'white',
+          fontWeight: '500',
+        }}>
           Ver detalhes
         </div>
       </div>
 
-    </li>
+    </div>
   )
 }
 

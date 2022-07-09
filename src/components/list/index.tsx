@@ -19,16 +19,16 @@ const List = () => {
     display: 'grid',
     gridTemplateRow: '1fr',
     gap: '22px',
-    paddingTop: '12px',
+    paddingTop: '16px',
     width: '100%',
     justifyContent: 'center',
   }
   return (
-    <ul style={styles}>
+    <div style={styles}>
       {data.map((item) => (
         <Item key={item.title} item={item} />
       ))}
-    </ul>
+    </div>
   )
 }
 

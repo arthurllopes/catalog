@@ -11,12 +11,12 @@ const Navbar = () => {
     padding: '8px 0px 0px 28px',
     borderBottom: '2px solid #ddd',
     width: '95vw',
-    margin: '8px auto'
+    margin: '8px auto',
   }
   const style = {
     display: 'flex',
     textAlign: 'center',
-    padding: '8px 12px',
+    padding: '20px 12px',
     minWidth: '60px',
     cursor: 'pointer',
   }
