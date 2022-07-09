@@ -10,7 +10,14 @@ const Footer = () => {
     width: '95%',
   }
   return (
-    <footer style={styles}>
+    <footer style={{
+      display: 'flex',
+      alignItems: 'center',
+      margin: '0 auto',
+      padding: '12px 16px',
+      borderTop: '1px solid #bbb',
+      width: '95%',
+    }}>
       <div style={{textAlign: 'center', width: '100%'}}>
         Exemplo de catalogo feito por &copy; Arthur Lopes
       </div>

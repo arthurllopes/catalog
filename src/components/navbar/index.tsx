@@ -24,7 +24,11 @@ const Navbar = () => {
   return (
     <nav style={styles}>
       {categories?.map((item: any) => (
-        <div key={item} style={{...style, borderBottom: category === item ? '3px solid #aaa' : '', color: category === item ? 'black' : 'gray'}} onClick={() => setCategory(item)}>
+        <div key={item} style={{display: 'flex',
+        textAlign: 'center',
+        padding: '8px 12px',
+        minWidth: '60px',
+        cursor: 'pointer', borderBottom: category === item ? '3px solid #aaa' : '', color: category === item ? 'black' : 'gray'}} onClick={() => setCategory(item)}>
           {item}
         </div>
       ))}

@@ -3,7 +3,6 @@ import Item from '../item'
 import audi from '../../assets/audi.png'
 import land from '../../assets/land.png'
 import merce from '../../assets/merce.png'
-import bmw from '../../assets/bmw.png'
 import volk from '../../assets/volk.png'
 import tesla from '../../assets/tesla.png'
 
