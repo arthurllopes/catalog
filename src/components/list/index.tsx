@@ -20,7 +20,9 @@ const List = () => {
     display: 'grid',
     gridTemplateRow: '1fr',
     gap: '22px',
-    paddingTop: '8px'
+    paddingTop: '12px',
+    width: '100%',
+    justifyContent: 'start',
   }
   return (
     <ul style={styles}>
