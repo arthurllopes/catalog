@@ -39,8 +39,8 @@ const Home: NextPage = () => {
             <tbody>
                 <tr>
                     <td style={{padding: '8px', fontSize: '.85rem', textAlign: 'left'}}>À VISTA</td>
-                    <td style={{padding: '8px', fontSize: '.85rem', textAlign: 'center'}}>SEM PARCELAR</td>
-                    <td style={{padding: '8px', fontSize: '.85rem', textAlign: 'right'}}>{totalValue.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}</td>
+                    <td style={{padding: '8px', fontSize: '.85rem', textAlign: 'left'}}>SEM PARCELAR</td>
+                    <td style={{padding: '8px', fontSize: '.85rem', textAlign: 'left'}}>{totalValue.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}</td>
                 </tr>
 
                 {taxas.map((taxa: number, index: number) => {
@@ -53,8 +53,8 @@ const Home: NextPage = () => {
                 return (
                     <tr key={index}>
                         <td style={{padding: '8px', fontSize: '.85rem', textAlign: 'left'}}>{index + 1} X</td>
-                        <td style={{padding: '8px', fontSize: '.85rem', textAlign: 'center'}}>{(index === 0 ? valuePerMonth - (entryValue ? entryValue : 0) : valuePerMonth).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}</td>
-                        <td style={{padding: '8px', fontSize: '.85rem', textAlign: 'right'}}>{newTotalValue.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}</td>
+                        <td style={{padding: '8px', fontSize: '.85rem', textAlign: 'left'}}>{(index === 0 ? valuePerMonth - (entryValue ? entryValue : 0) : valuePerMonth).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}</td>
+                        <td style={{padding: '8px', fontSize: '.85rem', textAlign: 'left'}}>{newTotalValue.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}</td>
                     </tr>
                 )  
                 })}
