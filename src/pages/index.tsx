@@ -17,6 +17,11 @@ const Home: NextPage = () => {
       <Header />
       <Navbar />
       <List />
+      <div style={{display: 'flex', justifyContent: 'center',  alignItems: 'center', width: '100%', backgroundColor: '#4162e1', color: 'white', borderRadius: '20px', padding: '12px', marginTop: '24px'}}>
+        <Link href='/simulate' >
+          Simular pagamentos
+        </Link>
+      </div>
       <Footer />
 
     </div>
